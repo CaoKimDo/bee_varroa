@@ -1,0 +1,7 @@
+#pragma once
+
+#define SDMMC_BUS_WIDTH 1
+
+#define SDMMC_PIN_CMD GPIO_NUM_38
+#define SDMMC_PIN_CLK GPIO_NUM_39
+#define SDMMC_PIN_D0 GPIO_NUM_40
