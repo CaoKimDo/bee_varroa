@@ -90,6 +90,8 @@ extern "C" void app_main(void) {
     //init_camera();
     init_microsd();
 
+    //while (1) {
+    
     auto images = list_jpeg_files("/sdcard/images");
 
     for (const auto &path : images) {

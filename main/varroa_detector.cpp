@@ -18,9 +18,9 @@ namespace varroadet_detect {
         // Postprocessor (ESPDet/YOLO-style)
         m_postprocessor = new dl::detect::ESPDetPostProcessor(
             m_model, m_image_preprocessor,
-            0.15,  // Confidence threshold
+            0.6,  // Confidence threshold
             0.7,  // NMS threshold
-            100,  // Max detections
+            160,  // Max detections
             {{8, 8, 4, 4},
              {16, 16, 8, 8},
              {32, 32, 16, 16}}
